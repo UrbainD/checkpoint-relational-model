@@ -1,0 +1,14 @@
+			***********************
+			*DIAGRAMME RELATIONNEL*
+			***********************
+
+
+  Hotel(Hotel_id,Hotel_name,#type_id,#Room_id,#Employee_id)
+
+  Type(Type_id,Type_name)
+
+  Room(Room_id,Floor,#Catregory_name)
+
+  Category(Category_id,Category_name,Price,Beds_numbers)
+ 
+  Employee(Employee_id,Employee_Name,Employee_Speciality)
